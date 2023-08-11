@@ -16,7 +16,6 @@ Import-Module Posh-SSH
 # Connect-AzAccount -ServicePrincipal -Credential $Credential -Tenant $TenantID 
 # Write-Host "Service Principal Connected"
 
-
 # Azure KeyVault and Storage info
 $kvName = "kvSFTP01"
 $storageAccountName = "gocustom"
